@@ -1,0 +1,68 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url("./back2.jpg");
+    background-repeat: no-repeat;
+    background-position: center, center;
+    background-size: cover;
+    color: white;
+
+}
+
+.converter-container {
+    text-align: center;
+    /* border:  2px solid red; */
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Grey box shadow */
+    transition: box-shadow 0.3s ease;
+    background-color: #00000088;
+
+}
+
+.converter-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker box shadow on hover */
+    background-color: #000000AA;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+select, input {
+    margin: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+    margin: 1em;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(to right, #7fccff, #0099ff);
+    color: #fff;    
+    font-weight: bold;
+    
+}
+
+
+button:hover {
+    background: linear-gradient(to left, #7fccff, #0099ff);
+  }
+
+  #result{
+    font-weight: bolder;
+  }
